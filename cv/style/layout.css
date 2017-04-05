@@ -1,0 +1,201 @@
+/**/
+body { 
+	font-family: Georgia;
+	background: #FFF;	
+}
+
+/**/
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #000;
+}
+
+p {
+	line-height: 1.4em;
+	color: #000;
+}
+
+a:hover { text-decoration: none; }
+
+/**/
+h1 span.forename {
+	float: left;
+	/*color: #DFDFDF;*/
+/*	text-shadow: 0 0 20px rgba(92, 179, 255, 0.75);*/
+}
+
+h1 span.space {
+/*	display: none;*/
+}
+
+h1 span.surname {	
+/*	text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);*/
+}
+
+/**/
+div#container {	
+	width: 960px;
+	margin: 0 auto;	
+	padding-top:1em;		
+}
+
+/**/
+div#header {	
+	position: relative;
+	display: inline-block;
+	width: 960px;	
+	padding-bottom: 1em;
+	border-bottom: 1px solid #000;
+}
+
+div#header div.detail h1 {	
+	font-family: Georgia;
+	font-size: 2.5em;
+/*	letter-spacing: 2px;
+	text-transform: uppercase;	*/
+}
+
+div#header div.detail h2 {	
+	font-size: 1.2em;	
+	letter-spacing: 2px;
+	font-style: italic;	
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+}
+
+div#header div.detail {
+	float: left;
+}
+
+div#header div.detail.contact {
+	float: right;
+	text-align: right;
+}
+
+p a { color: #000; }
+p a:hover { text-decoration: none; }
+
+/**/
+div#content {
+	overflow: hidden;
+}
+
+div#content div.section {			
+	overflow: hidden;
+	
+	border-bottom: 1px solid #000;		
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+div#content div.section h3 {
+	float: left;	
+	font-size: 1.25em;	
+	font-style: italic;
+}
+
+div#content div.section ul {  
+	font-family: Arial;
+	float: right; 	
+	width: 75%;		
+}
+
+div#content div.section ul li {  
+	border-left: 1px solid #000;
+	padding: 1em;
+	padding-right: 0;
+	margin-bottom: 2em;
+}
+
+div#content div.section ul li:last-child { margin: 0; }
+
+div#content div.section ul li h4 {
+	font-size: 1.25em;	
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+div#content div.section ul li .top h4 { margin: 0; }
+
+div#content div.section ul li h5 {
+	font-size: 0.874em;	
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+div#content div.section ul li p {  
+	font-size: 0.875em;
+	padding-right: 5em;
+	line-height: 1.428571em;
+	margin-bottom: 1em;
+}
+
+div#content div.section ul li p:last-child {  
+	margin: 0;
+}
+
+div#content div.section ul li p.date,
+div#content div.section ul li p.detail {
+	margin-bottom: 0;
+}
+
+div#content div.top { overflow: hidden; margin-bottom: 1em; }
+div#content div.left { float: left; }
+div#content .logo { float: right; width: 64px; }
+
+div#content div.section ul li ul {
+	float: none;
+	width: auto;
+	list-style-type: disc;
+	padding-left:3.25em;
+}
+
+div#content div.section ul li ul li {
+	padding: 0;
+	border: none;
+	color: #000;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+	font-size: 0.875em;
+}
+
+div#content div.section ul.grades {
+}
+
+div#content div.section ul.grades span {
+	float: left
+	width: 110px;
+}
+
+/**/
+div#content div.section.profile p {	
+	float: right;
+	width: 73%;
+	font-size: 1.25em;		
+}
+
+div#content div.section ul li p.date {
+	font-size: 0.75em;
+	padding:0;
+	margin-bottom: 0.5em;
+}
+
+/**/
+div#footer {
+	overflow: hidden;	
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+}
+
+div#footer p {
+	font-size: 0.75em;
+	text-align: right;
+}
+
+div#footer p span {
+	font-style: italic;
+}
+
+div#content .skills .master ul { list-style-type: none; overflow: hidden; margin: 0; padding: 0; margin-bottom: -1em; }
+div#content .skills .master ul li { float: left; margin-right: 1em; list-style-type: none; /*border: solid 1px #CCC;*/ padding: 2px 4px; }
